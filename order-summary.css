@@ -1,0 +1,90 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: sans-serif;
+}
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: cover;
+}
+
+:root {
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+}
+
+.container {
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+}
+
+.text-content {
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.costs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 45px 15px 45px;
+  background-color: var(--Verypaleblue);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: var(--Brightblue);
+  padding: 18px;
+  border-radius: 11px;
+  box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+  color: white;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+#hero {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+p {
+  opacity: 80%;
+}
+
+.top {
+  font-weight: bold;
+  opacity: 100%;
+}
+
+a {
+  color: var(--Desaturatedblue);
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: darkblue;
+}
+
+a:hover {
+  cursor: pointer;
+  color: black;
+}
